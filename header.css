@@ -1,0 +1,55 @@
+header{
+    padding: 100px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+.header-text{
+    width: 850px;
+}
+
+.bild{
+    height: 500px;
+    width: 500px;
+    max-width: 80vw;
+    max-height: 80vw;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bild img {
+    width: 100%;
+}
+
+nav{
+    margin-bottom: 120px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav a:hover{
+    color: orange;
+}
+@media(max-width:800px){
+    h1{
+        font-size: 12vw;
+        text-align: center;
+    }
+    .subheading{
+        text-align: center;
+
+    }
+
+}

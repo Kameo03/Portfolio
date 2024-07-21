@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="general-setting.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="über_mich.css">
+    <link rel="stylesheet" href="Projekte.css">
+    <link rel="stylesheet" href="kontakt.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-text">
+            <nav>
+                <ul>
+                    <li><a href="#über_mich_section">Über mich</a></li>
+                    <li><a href="#Projekte_section">Projekte</a></li>
+                    <li><a href="#Kontakt_section">Kontakt</a></li>
+                </ul>
+            </nav>
+            <h1>Leonarda Zoccano <br> <span style="color: orange;">Kommunikations <br>Designerin</h1>
+            <p class="subheading">Willkommen in meiner wundervolle Welt des Kommunikationsdesigns. Ich werde werde dir
+                hier in meinem Portfolio meine Projekte zeigen und einweinig über mich erzählen. <br>
+                <b>Viel Spaß
+            </p>
+        </div>
+        <div class="bild">
+            <img src="IMG_20231225_153939_746.jpg" alt="">
+        </div>
+    </header>
+    <section id="über_mich_section">
+        <img src="IMG_20231225_153939_746.jpg" alt="">
+        <div class="über_mich_container">
+            <h2 span style="color: black;">Über mich</h2>
+            <p span style="color: black;"> Hallo, <br> <br>
+
+                ich bin aktuell im zweiten Semester meines Kommunikationsdesign-Studiums und liebe diesen Studiengang.
+                <br>
+                Mein Studium bietet mir die perfekte Plattform, um meine kreativen Fähigkeiten und mein technisches
+                Know-how <br>
+                zu erweitern. <br>
+
+
+                Ich habe bereits vielfältige Erfahrungen in den Bereichen Webentwicklung, App-Entwicklung und Typografie
+                gesammelt. <br>
+                Es bereitet mir großen Spaß, innovative und ästhetisch ansprechende Designs zu kreieren, die sowohl
+                funktional als auch <br>
+                benutzerfreundlich sind. Meine Leidenschaft für Design und Technologie zeigt sich in den verschiedenen
+                Projekten, die ich <br>
+                bereits erfolgreich abgeschlossen habe. <br> <br>
+
+                Zusätzlich bin ich auch als Cellist sehr aktiv. Das Musizieren ist nicht nur eine Leidenschaft, sondern
+                hilft mir auch, mich kreativ <br>
+                weiterzuentwickeln. Durch die Musik lerne ich Disziplin, Ausdruck und die Bedeutung von Nuancen, die ich
+                direkt in meine <br> Designarbeit
+                einfließen lassen kann. <br>
+
+                Mein Portfolio spiegelt die Vielfalt meiner Fähigkeiten wider und zeigt, wie ich kreative Ansätze mit
+                technischer Präzision verbinde. <br>
+                Von Web- und App-Designs bis hin zu typografischen Projekten – ich freue mich, meine Arbeiten zu
+                präsentieren und die Möglichkeiten <br>
+                meiner kreativen Reise weiter auszubauen.
+            </p>
+        </div>
+    </section>
+
+    <section id="Projekte_section">
+        <h2>Meine Projekte</h2>
+        <div class="flex_container">
+
+            <div class="card">
+                <h3>Typo</h3>
+                <p>Mit der Schriftart Bodoni Moda, habe ich verschiedene typografische Variationen und
+                    experimente durchgeführt mit verschiedenen größe, Plazierungen, Darstellungen um zu zeigen was mit
+                    schift eignetlich alles möglich ist.
+                    Gehen sie auf eine Fazinierende Reise und lassen sie sich überraschen </p>
+                <a href="Typo.html">zum Projekt</a>
+            </div>
+
+            <div class="card">
+                <h3>App</h3>
+                <p>Harmony Swipe ist eine Musik-App. Sie ermöglicht das
+                    Scannen und Einfügen eigener Noten, spielt diese
+                    automatisch ab, während Sie musizieren, und überprüft
+                    Ihre Konzentration. Bei Bedarf gibt die App eine
+                    Pausenempfehlung, um effektives Üben zu unterstützen.</p>
+                <a href="App.html">zum Projekt</a>
+            </div>
+
+            <div class="card">
+                <h3>Magazin</h3>
+                <p>Das Magazin das Cello in der Epoche der Romantik, sind für alle Musikinteressierte
+                    die das Cello in der Romantischen Epoche entdecken möchten. Mit seinen Minimalistischen
+                    stil wird Ruhe eingebracht und doch zugleich sind bringen die dynamischen Elemente Bewegung </p>
+                <a href="Magazin.html">zum Projekt</a>
+            </div>
+
+            <div class="card">
+                <h3>Postkarte</h3>
+                <p>Die Postcrade ich Will meinen Kaffee ist einen Vektoresiertre Graphik die dann in dem Siebdruck
+                    als Postkarte gedruckt wurde.Sie soll humorvoll und Lustig sein. Die perfekte Postkarte für alle
+                    Kaffee liebhaber und wer keine Kaffee mag, da bleibt immer nohc die süße Katzte. </p>
+                <a href="Postkarte.html">zum Projekt</a>
+            </div>
+    </section>
+
+    <iframe width="1700" height="750" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+
+    <footer id="Kontakt_section" class="contact">
+        <h2>Kontakt</h2> <br>
+        <div>
+            <form action="/action_page.php">
+                <label for="fname">Vorname</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Nachname</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Land</label>
+                <select id="country" name="country">
+                    <option value="australia">Deutschland</option>
+                    <option value="canada">Schweiz</option>
+                    <option value="usa">Canada</option>
+                </select>
+
+                <label for="subject">Nachricht</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>

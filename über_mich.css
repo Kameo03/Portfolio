@@ -1,0 +1,33 @@
+#über_mich_section{
+    padding: 100px 0;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap-reverse;
+
+}
+.über_mich_containe{
+    width: 200px;
+    max-width: 90%;
+
+    }
+#über_mich_section img{
+    width: 400px;
+    border: 5px solid black;
+    max-width: calc(90%-30px);
+}
+.über_mich_containe h2{
+    font-size: 100px;
+    color: black;
+}
+@media(max-width:800px){
+    #über_mich_section{
+        padding: 50px 0;
+    }
+    #über_mich_section h2{
+        text-align: center;
+        font-size: 12vw;
+    }
+}
